@@ -1,0 +1,39 @@
+.DS_Store
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.crt
+*.mobileprovision
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+*_rsa
+*_ed25519
+*.log
+logs/
+config.local.*
+
+# Local visual QA may contain redacted or private infrastructure state
+QA/
+
+# Common local tooling and build output
+.build/
+.swiftpm/
+DerivedData/
+node_modules/
+dist/
+build/
+target/
+.cache/
+.idea/
+.vscode/
+xcuserdata/
+*.xcuserstate
