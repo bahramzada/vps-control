@@ -26,6 +26,9 @@ VPS Control şəxsi serveri gündəlik SSH əmrləri yazmadan izləmək üçün 
 > [!IMPORTANT]
 > İnkişaf verified local MVP mərhələsində dayandırılıb. Hazırkı build bir Ubuntu Server 24.04 LTS VPS ilə yoxlanılıb; bütün Ubuntu serverləri üçün universal compatibility hələ təmin edilmir.
 
+> [!NOTE]
+> Heç bir host, açar və ya parol repo-da saxlanmır.
+
 ## Nə verir?
 
 | Sahə | Hazırkı imkanlar |
@@ -175,4 +178,4 @@ Docker/Portainer və privileged administration ayrıca security review tələb e
 
 ## License
 
-Open-source license hələ seçilməyib. License əlavə edilənədək bütün hüquqlar müəllifdə saxlanılır.
+MIT. Bax: [LICENSE](LICENSE).
